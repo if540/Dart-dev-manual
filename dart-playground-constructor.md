@@ -60,4 +60,5 @@ class User {
 
 參考資料:
 - [Dart 的 Constructor 研究 => Named & Factory](https://www.pigo.idv.tw/archives/1939)
+- [Dart/Flutter – Convert Object, List to JSON string](https://bezkoder.com/dart-flutter-convert-object-to-json-string/)
 - [JsonEncoder](https://api.dart.dev/stable/2.12.4/dart-convert/JsonEncoder/JsonEncoder.html)
