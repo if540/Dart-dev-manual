@@ -2,6 +2,8 @@
 
 [dartpad](https://dartpad.dev/)
 
+[quicktype](https://app.quicktype.io/)
+
 ```dart
 // import 'dart:convert';
 
