@@ -48,7 +48,9 @@ class User {
   User.nothing()
       : name = 'haha',
         age = 9999;
-
+        
+  // JsonEncoder
+  // If toEncodable is omitted, it defaults to calling .toJson() on the object.
   Map toJson() => {
         'name': name,
         'age': age,
@@ -58,3 +60,4 @@ class User {
 
 參考資料:
 - [Dart 的 Constructor 研究 => Named & Factory](https://www.pigo.idv.tw/archives/1939)
+- [JsonEncoder](https://api.dart.dev/stable/2.12.4/dart-convert/JsonEncoder/JsonEncoder.html)
