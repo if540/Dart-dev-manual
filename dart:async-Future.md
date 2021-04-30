@@ -1,6 +1,17 @@
 # dart:async Future<T> class
   
-## 異步請求
+### Basic Future
+```dart
+Future getUserInfo() async {
+  return {"name": "flutter"};
+}
+
+var userInfoFetch = getUserInfo();
+
+userInfoFetch.then((res) {
+  // do something
+}).catchError((error) => print(error));
+```
 
 ### 延遲時間請求
 
