@@ -6,3 +6,4 @@
 
 學習資源:
 - [電腦科學中的 future 與 promise 的不同](https://zh.wikipedia.org/wiki/Future%E4%B8%8Epromise)
+- [Future class](https://api.dart.dev/stable/2.12.4/dart-async/Future-class.html)
