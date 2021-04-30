@@ -13,6 +13,13 @@ userInfoFetch.then((res) {
 }).catchError((error) => print(error));
 ```
 
+### Simple Future
+```dart
+var future = Future.value(1);
+print(future);
+//Instance of 'Future<int>'
+```
+
 ### 延遲時間請求
 
 學習資源:
