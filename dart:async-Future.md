@@ -20,7 +20,15 @@ print(future);
 //Instance of 'Future<int>'
 ```
 
-### 延遲時間請求
+#### delayed
+```dart
+Future.delayed(Duration(seconds: 1), () async {
+  // computation
+  return 'computation pass.';
+}).then((value) {
+  print('value go from computation: $value');
+});
+```
 
 學習資源:
 - [電腦科學中的 future 與 promise 的不同](https://zh.wikipedia.org/wiki/Future%E4%B8%8Epromise)
