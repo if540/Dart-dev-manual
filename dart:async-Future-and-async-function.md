@@ -23,6 +23,7 @@ Future getUserInfo() async {
 
 ### Basic Future
 ```dart
+// 接續 sync function 範例
 var userInfoFetch = getUserInfo();
 
 userInfoFetch.then((res) {
