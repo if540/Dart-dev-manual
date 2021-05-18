@@ -9,8 +9,9 @@
   - [Static types and dynamic](https://dart.dev/guides/language/extension-methods#static-types-and-dynamic)
   
 NoSuchMethodError: ido package 案例
-  - post 返回的是 `Future<Response>` 類型，如果跳過它就必需注意取值的方法要改變
+  - post 返回的是 `Future<Response>` 類型，如果跳過它就必需注意取值的方法要改變，或是模擬 ido 取值型別 `Response`
   ```dart
+  // 如此一來就可以依舊使用 response.data 接值
   Future<Response> getUserList() async {
     var response = {
       "code": 200,
