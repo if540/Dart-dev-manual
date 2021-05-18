@@ -28,3 +28,13 @@ NoSuchMethodError: ido package 案例
     return res;
   }
   ```
+  ```dart
+  Future.delayed(Duration(seconds: 1), () async {
+    return _api.getUserList();
+  }).then((response) {
+    if (response.statusCode == 200) {
+      userListResponse = userListModelFromJson(response.data);
+    }
+    // ...
+  });
+  ```
