@@ -60,6 +60,31 @@ class User {
 }
 ```
 
+
+#### required param and default value
+```dart
+class Echo extends StatelessWidget {
+  const Echo({
+    Key? key,
+    required this.text,
+    this.backgroundColor = Colors.grey, // 默認值為灰色
+  }) : super(key: key);
+
+  final String text;
+  final Color backgroundColor;
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Container(
+        color: backgroundColor,
+        child: Text(text),
+      ),
+    );
+  }
+}
+```
+
 參考資料:
 - [Dart 的 Constructor 研究 => Named & Factory](https://www.pigo.idv.tw/archives/1939)
 - [Dart/Flutter – Convert Object, List to JSON string](https://bezkoder.com/dart-flutter-convert-object-to-json-string/)
