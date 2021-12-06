@@ -66,7 +66,7 @@ class User {
 class Echo extends StatelessWidget {
   const Echo({
     Key? key,
-    required this.text,
+    required this.text, // 必傳參
     this.backgroundColor = Colors.grey, // 默認值為灰色
   }) : super(key: key);
 
