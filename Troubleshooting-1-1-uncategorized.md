@@ -2,6 +2,13 @@
 
 錯誤排除
 
+- The default value of an optional parameter must be constant.dartnon_constant_default_value
+  - 可選參數的默認值必須是常量
+  - [non_constant_default_value](https://dart.dev/tools/diagnostic-messages#non_constant_default_value)
+  ```dart
+  {Key? key, required this.rivePath, this.stateMachine = const []}
+  ```
+
 - style: Prefer const literals as parameters of constructors on @immutable classes.dartprefer_const_literals_to_create_immutables
   - Prefer const with constant constructors.dartprefer_const_constructors
   - 多子級 widget 陣列被建議加上 const
