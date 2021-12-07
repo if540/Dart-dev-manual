@@ -2,6 +2,20 @@
 
 錯誤排除
 
+- style: Prefer const literals as parameters of constructors on @immutable classes.dartprefer_const_literals_to_create_immutables
+  - Prefer const with constant constructors.dartprefer_const_constructors
+  - 多子級 widget 陣列被建議加上 const
+  - [prefer_const_literals_to_create_immutables](https://dart-lang.github.io/linter/lints/prefer_const_literals_to_create_immutables.html)
+  ```dart
+    Column(
+      children: const [
+        RivCard(
+          rivePath: 'assets/animations/glowing-flower.riv',
+        );
+      ],
+    ),
+  ```
+
 - Error: NoSuchMethodError: 'data' method not found
   - 操作對像上沒有 data 方法，換句話說就是你操作的對像型別可能跟你想像的不一樣
   - Dart language 裡 Map, List... 沒有 `user.name` 點取值的用法
