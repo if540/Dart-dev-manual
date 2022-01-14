@@ -14,6 +14,7 @@ Dart 開發手冊
 
 ### 依賴
 
+- pubspec.yaml 就像是 package.json
 - dart 會將加載回來的依賴緩存.pub-cache
 
 ### 導出方法
