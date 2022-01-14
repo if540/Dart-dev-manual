@@ -40,3 +40,6 @@ show and hide
 import 'package:my_comm_lib.dart' show 'getName'; // 只會引入對應的 class/function/var...
 import 'package:my_comm_lib.dart' hide 'getName'; // 排除對應的 class/function/var...
 ```
+
+~~part~~ 官方不推薦使用，而是改用 export show
+[create mini library](https://dart.dev/guides/libraries/create-library-packages#organizing-a-library-package)
