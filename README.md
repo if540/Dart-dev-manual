@@ -24,5 +24,9 @@ export 'src/hw_none.dart'
 
 ```dart
 import 'relativePath'; // 相對路徑 or 絕對(相對於 lib)路徑
+import 'dart:math'; // 直接導入套件
 import 'package:hw_mp/hw_mp.dart'; // 通用方法，會去查找 lib 內外的檔
+// prefix 被設計用來，避免不同庫之間裡有重覆的命名
+import 'package:home_page.dart' as pages; // prefix 可以為導入庫，加前綴, pages.HomePage()
+import 'package:about_page.dart' as pages; // prefix 可以為導入庫，加前綴, pages.AboutPage()
 ```
