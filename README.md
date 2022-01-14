@@ -55,5 +55,5 @@ import 'package:my_comm_lib.dart' hide 'getName'; // 排除對應的 class/funct
 
 ### 按鈕
 
-- ElevatedButton (onPress...)
-- InkWell (onTap...) 
+- ElevatedButton (onPress...) 架高效果，會隨壓力按鈕提高層級、陰影也會
+- InkWell (onTap...) 墨水效果
