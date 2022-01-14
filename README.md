@@ -51,3 +51,9 @@ import 'package:my_comm_lib.dart' hide 'getName'; // 排除對應的 class/funct
 
 ~~part~~ 官方不推薦使用，而是改用 export show
 [create mini library](https://dart.dev/guides/libraries/create-library-packages#organizing-a-library-package)
+
+
+### 按鈕
+
+- ElevatedButton (onPress...)
+- InkWell (onTap...) 
