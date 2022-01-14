@@ -20,6 +20,8 @@ export 'src/hw_none.dart'
 ```
 
 ### 導入方法
+載入即可使用檔案內的變數、方法... (與 PHP 類似)
+
 ```dart
 import 'relativePath'; // 相對路徑 or 絕對(相對於 lib)路徑
 import 'package:hw_mp/hw_mp.dart'; // 通用方法，會去查找 lib 內外的檔
