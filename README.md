@@ -12,6 +12,7 @@ Dart 開發手冊
 - 目錄結構 lib/src 為私有領域，底下檔案將不會被導出公開 API，但仍然可以被引用
 - 每個 Dart 程序都是一個庫，即便沒有使用關鍵字 library 指定。
 - Scaffold 為 MaterialApp 中用來快速實現基礎版面的組件 ex: AppBar、BottomAppBar、FloatingActionButton...
+- 類型後加上問號 (?) 為可空 ex: int? 
 
 ### 依賴
 
