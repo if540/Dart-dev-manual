@@ -13,6 +13,7 @@ Dart 開發手冊
 - 每個 Dart 程序都是一個庫，即便沒有使用關鍵字 library 指定。
 - Scaffold 為 MaterialApp 中用來快速實現基礎版面的組件 ex: AppBar、BottomAppBar、FloatingActionButton...
 - 類型後加上問號 (?) 為可空 ex: int? 
+- 檢查是否為 空、null... ```["", null, false, 0].contains(value)``` 
 
 ### 依賴
 
