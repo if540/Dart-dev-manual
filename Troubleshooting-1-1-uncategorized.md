@@ -2,6 +2,17 @@
 
 錯誤排除
 
+- LateInitializationError: Field 'data' has not been initialized, got error
+  - [late data has not been initialized](https://stackoverflow.com/questions/67401385/lateinitializationerror-field-data-has-not-been-initialized-got-error)
+  
+  ```dart
+  late MyData data; // error
+  ```
+  Just change to
+  ```dart
+  MyData? data;
+  ```
+
 - The default value of an optional parameter must be constant.dartnon_constant_default_value
   - 可選參數的默認值必須是常量
   - [non_constant_default_value](https://dart.dev/tools/diagnostic-messages#non_constant_default_value)
