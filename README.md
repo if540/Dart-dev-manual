@@ -36,6 +36,10 @@ export 'src/hw_none.dart'
     if (dart.library.html) 'src/hw_html.dart';
 ```
 
+```dart
+import 'dart:io' if (dart.library.html) 'dart:html';
+```
+
 ### 導入方法
 載入即可使用檔案內的變數、方法... (與 PHP 類似)
 
