@@ -22,6 +22,7 @@ Dart 開發手冊
   )
   ```
 - [How to Convert Image to Base64 Encoding in Flutter/Dart](https://www.fluttercampus.com/guide/224/convert-image-to-base64/)
+- [Flutter Image object to ImageProvider](https://stackoverflow.com/questions/58870443/flutter-image-object-to-imageprovider)
 
 ### 依賴
 
