@@ -21,6 +21,7 @@ Dart 開發手冊
     constraints: BoxConstraints(),
   )
   ```
+- [How to Convert Image to Base64 Encoding in Flutter/Dart](https://www.fluttercampus.com/guide/224/convert-image-to-base64/)
 
 ### 依賴
 
