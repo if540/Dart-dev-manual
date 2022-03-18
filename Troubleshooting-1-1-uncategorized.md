@@ -2,6 +2,13 @@
 
 錯誤排除
 
+- Prefer typing uninitialized variables and fields. (prefer_typing_uninitialized_variables
+  - As you are not instantiating while declaring variables, it is often good practice to declare type beforehand.（由於您在聲明變量時沒有實例化，因此事先聲明類型通常是一種好習慣。）
+  ```dart
+  var client; // warning
+  dynamic client; // good
+  ```
+
 - LateInitializationError: Field 'data' has not been initialized, got error
   - [late data has not been initialized](https://stackoverflow.com/questions/67401385/lateinitializationerror-field-data-has-not-been-initialized-got-error)
   
