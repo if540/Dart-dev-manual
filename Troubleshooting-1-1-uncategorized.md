@@ -2,6 +2,17 @@
 
 錯誤排除
 
+- Fixing `Caught error: Unsupported operation: Platform._operatingSystem`
+  - [web 已知問題](http://blog.wafrat.com/fixing-caught-error-unsupported-operation-platform-_operatingsystem/)
+  ```dart
+  import 'package:flutter/foundation.dart' show kIsWeb;
+  
+  // The fix is to use their kIsWeb constant workaround:
+  if (!kIsWeb && Platform.isAndroid) {
+    // ...
+  }
+  ```
+
 - Prefer typing uninitialized variables and fields. (prefer_typing_uninitialized_variables
   - As you are not instantiating while declaring variables, it is often good practice to declare type beforehand.（由於您在聲明變量時沒有實例化，因此事先聲明類型通常是一種好習慣。）
   ```dart
