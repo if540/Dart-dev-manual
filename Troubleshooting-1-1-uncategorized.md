@@ -2,7 +2,7 @@
 
 錯誤排除
 
-- Fixing `Caught error: Unsupported operation: Platform._operatingSystem`
+- [web] Fixing `Caught error: Unsupported operation: Platform._operatingSystem`
   - [web 已知問題](http://blog.wafrat.com/fixing-caught-error-unsupported-operation-platform-_operatingsystem/)
   ```dart
   import 'package:flutter/foundation.dart' show kIsWeb;
