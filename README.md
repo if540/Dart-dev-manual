@@ -25,6 +25,27 @@ Dart 開發手冊
 - [Flutter Image object to ImageProvider](https://stackoverflow.com/questions/58870443/flutter-image-object-to-imageprovider)
 - 檢查資料型 `.runtimeType`
 - [Flutter NetworkImage vs cached_network_image](https://stackoverflow.com/questions/65261263/flutter-networkimage-vs-cached-network-image)
+- dart enum 賦值方法
+  ```dart
+  // example
+  enum Cat {
+    black,
+    white
+  }
+
+  extension CatExtension on Cat {
+    String? get value {
+      switch (this) {
+        case Cat.black:
+          return 'Mr Black Cat';
+        case Cat.white:
+          return 'Sir White Cat';
+        default:
+          return null;
+      }
+    }
+  }
+  ```
 
 ### 依賴
 
