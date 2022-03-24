@@ -98,3 +98,10 @@ import 'package:my_comm_lib.dart' hide 'getName'; // 排除對應的 class/funct
 
 - ElevatedButton (onPress...) 架高效果，會隨壓力按鈕提高層級、陰影也會
 - InkWell (onTap...) 墨水效果
+
+### 開發小技巧
+
+- UI 快速顯示秀 log
+  ```dart
+  showDialog(context: context, builder: (_) => const Text('show dialog'));
+  ```
