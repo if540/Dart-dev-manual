@@ -4,6 +4,7 @@
 
 - [web] mobile cookie not work
   - use [js-cookie](https://github.com/js-cookie/js-cookie)
+  - https://stackoverflow.com/a/56591766
 - [web] Fixing `Caught error: Unsupported operation: Platform._operatingSystem`
   - [web 已知問題](http://blog.wafrat.com/fixing-caught-error-unsupported-operation-platform-_operatingsystem/)
   ```dart
