@@ -108,4 +108,13 @@ import 'package:my_comm_lib.dart' hide 'getName'; // 排除對應的 class/funct
     // https://stackoverflow.com/a/50144478
     ```
   2. call js [Using JavaScript in Dart & Flutter](https://fireship.io/snippets/using-js-with-flutter-web/)
+    ```dart
+    // 常用 dev js
+    // function alertMessage(text) {
+    //   alert(text)
+    // }
+    // window.logger = (flutter_value) => {
+    //   console.log({ js_context: this, flutter_value });
+    // }
+    ```
   
