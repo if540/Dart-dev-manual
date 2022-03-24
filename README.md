@@ -102,10 +102,10 @@ import 'package:my_comm_lib.dart' hide 'getName'; // 排除對應的 class/funct
 ### 開發小技巧
 
 - UI 快速顯示秀 log
-- 1. showDialog
-  ```dart
-  showDialog(context: context, builder: (_) => const Text('show dialog'));
-  // https://stackoverflow.com/a/50144478
-  ```
-- 2. call js [Using JavaScript in Dart & Flutter](https://fireship.io/snippets/using-js-with-flutter-web/)
+  1. showDialog
+    ```dart
+    showDialog(context: context, builder: (_) => const Text('show dialog'));
+    // https://stackoverflow.com/a/50144478
+    ```
+  2. call js [Using JavaScript in Dart & Flutter](https://fireship.io/snippets/using-js-with-flutter-web/)
   
