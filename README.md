@@ -104,4 +104,5 @@ import 'package:my_comm_lib.dart' hide 'getName'; // 排除對應的 class/funct
 - UI 快速顯示秀 log
   ```dart
   showDialog(context: context, builder: (_) => const Text('show dialog'));
+  // https://stackoverflow.com/a/50144478
   ```
