@@ -1,0 +1,19 @@
+{
+  // todo tree config for dart
+  "todo-tree.general.tags": [
+      "TODO", "todo",
+      "FIXME", "fixme",
+      "BUG", "bug",
+  ],
+  "todo-tree.general.tagGroups": {
+      "TODO": ["TODO", "todo"],
+      "FIXME": ["FIXME", "fixme"],
+      "BUG": ["BUG", "bug"]
+  },
+  "todo-tree.highlights.customHighlight": {
+      "TODO": {
+          "foreground": "#719667",
+          "type": "line"
+      }
+  }
+}
