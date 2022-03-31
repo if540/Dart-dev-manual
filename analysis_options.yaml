@@ -1,0 +1,4 @@
+analyzer:
+  errors:
+    # 忽略錯誤提示 https://dart.dev/guides/language/analysis-options#ignoring-rules
+    todo: ignore
