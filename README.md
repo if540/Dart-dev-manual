@@ -122,5 +122,5 @@ import 'package:my_comm_lib.dart' hide 'getName'; // 排除對應的 class/funct
  
 ### 開發資源
 
-- [spinkit](https://tobiasahlin.com/spinkit/)
+- [spinkit](https://tobiasahlin.com/spinkit/)、[Flutter Spinkit](https://github.com/jogboms/flutter_spinkit)
   
