@@ -119,4 +119,8 @@ import 'package:my_comm_lib.dart' hide 'getName'; // 排除對應的 class/funct
     //   console.log({ js_context: this, flutter_value });
     // }
     ```
+ 
+### 開發資源
+
+- [spinkit](https://tobiasahlin.com/spinkit/)
   
