@@ -119,6 +119,7 @@ import 'package:my_comm_lib.dart' hide 'getName'; // 排除對應的 class/funct
     //   console.log({ js_context: this, flutter_value });
     // }
     ```
+- [A simple way to detect if browser is on a mobile device with Javascript](https://dev.to/timhuang/a-simple-way-to-detect-if-browser-is-on-a-mobile-device-with-javascript-44j3)
  
 ### 開發資源
 
