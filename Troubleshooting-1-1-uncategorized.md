@@ -2,6 +2,7 @@
 
 錯誤排除
 
+- [This class is marked as '@immutable'](https://stackoverflow.com/a/57929523)
 - [web] mobile cookie not work
   - use [js-cookie](https://github.com/js-cookie/js-cookie)
   - https://stackoverflow.com/a/56591766
