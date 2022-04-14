@@ -2,6 +2,12 @@
 
 錯誤排除
 
+- Uncaught Error: Bad state: No element
+  ```dart
+  List messages = [];
+  print(messages.last);
+  ```
+  
 - [This class is marked as '@immutable'](https://stackoverflow.com/a/57929523)
 - [web] mobile cookie not work
   - use [js-cookie](https://github.com/js-cookie/js-cookie)
