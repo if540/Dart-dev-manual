@@ -1,6 +1,6 @@
 # Classes 類
 
-## implements、extends、with
+## implements、extends(擴展)、with
 
 
 ## @override
@@ -9,7 +9,7 @@
 
 下面情況禁止覆寫:
 
-- DON'T override fields.
+- DON'T override fields. (extends、with)
   ```dart
   @override
   final String? food = 'banana'; // DON'T override fields.
