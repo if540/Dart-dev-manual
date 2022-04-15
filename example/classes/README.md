@@ -17,7 +17,7 @@
 
 ### Classes（[Implicit interfaces](https://dart.dev/guides/language/language-tour#implicit-interfaces)）
 
-在 dart 中，每一個類都為隱式介面，通過 implements
+在 dart 中，每一個類都為隱式介面(Interface)，通過 implements 在句中聲明實作，可複數。
 
 ### Abstract classes
 
@@ -34,6 +34,14 @@
   void updateChildren() {};
   ```
 
-### Interface
+### [Interface 實作](https://dart.dev/guides/language/language-tour#implicit-interfaces)
+
+所有介面 fields、方法都要實作。
+
+複數實作
+
+```dart
+class Point implements Comparable, Location {...}
+```
 
 ### Mixin
