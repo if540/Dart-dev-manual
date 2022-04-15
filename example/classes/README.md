@@ -1,5 +1,7 @@
 # Classes 類
 
+**重點整理:**
+
 - 每一個類都是介面
 - implements 必需實作介面所有fields、方法(除了constructor)
 - mixin 沒有 constructor
