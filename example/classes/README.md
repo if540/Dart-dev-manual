@@ -11,8 +11,8 @@
   ```
 - 可以有抽象方法
   ```dart
-  // can: none method body
+  // CAN: none method body
   void updateChildren();
-  // can: method body
+  // CAN: method body
   void updateChildren() {};
   ```
