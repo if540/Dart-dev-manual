@@ -53,3 +53,15 @@ mixin A {}
 class B {} // class 移除構造函式，可被 with 引用
 class C with A, B {}
 ```
+
+mixin on 限制使用, 不能對實作對象自身使用，ex: 不能 on Man
+
+```dart
+class Master {
+  void eat() {}
+}
+mixin Fight on Master {
+  void shoot();
+}
+class Man extends Master with Fight {}
+```
