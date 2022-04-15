@@ -7,7 +7,7 @@
 
 @override 預設選填，LINT 會提示所有繼承來的方法都要寫 `@override`。
 
-除了下面情況禁止覆寫:
+下面情況禁止覆寫:
 
 - DON'T override fields.
   ```dart
