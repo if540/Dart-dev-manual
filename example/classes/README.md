@@ -19,6 +19,17 @@
 
 在 dart 中，每一個類都為隱式介面(Interface)，通過 implements 在句中聲明實作，可複數。
 
+**super** [引用父類](https://dart.dev/guides/language/language-tour#extending-a-class)
+```
+class B extends A {
+  @override
+  void eatFood() {
+    super.eatFood(); // 引用父類A方法
+    // override 必需實作，否則會報錯
+  }
+}
+```
+
 ### Abstract classes
 
 - 抽象類，不能實體化
