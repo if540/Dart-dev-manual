@@ -14,9 +14,9 @@
 - @override 預設選填，使用 LINT 則建議加 `@override`。
 
 
-### Classes（[Implicit interfaces](https://dart.dev/guides/language/language-tour#implicit-interfaces)）
+### Classes
 
-在 dart 中，每一個類都為隱式介面(Interface)，通過 implements 在句中聲明實作，可複數。
+在 dart 中，每一個類都為隱式介面(Interface)
 
 **super** [引用父類](https://dart.dev/guides/language/language-tour#extending-a-class)
 ```
