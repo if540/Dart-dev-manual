@@ -1,6 +1,6 @@
 # Classes 類
 
-**重點整理:**
+## 重點整理
 
 - 每一個類都是[隱式介面](https://dart.dev/guides/language/language-tour#implicit-interfaces)
 - mixin, class, abstract class 都可以被實作
@@ -11,21 +11,8 @@
 - mixin 沒有 constructor
 - class 移除 constructor 可被 with
 - 抽象類才可以寫抽象方法
+- @override 預設選填，使用 LINT 則建議加 `@override`。
 
-## implements、extends(擴展)、with
-
-
-## @override
-
-@override 預設選填，LINT 會提示所有覆寫都要加 `@override`。
-
-下面情況禁止覆寫:
-
-- DON'T override fields. (extends、with)
-  ```dart
-  @override
-  final String? food = 'banana'; // DON'T override fields.
-  ```
 
 ### Classes（[Implicit interfaces](https://dart.dev/guides/language/language-tour#implicit-interfaces)）
 
