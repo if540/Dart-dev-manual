@@ -10,7 +10,7 @@
 - extends、with 不能 @override fields
 - mixin 沒有 constructor
 - class 移除 constructor 可被 with
-- 抽象類不能實例化、有抽象方法
+- 抽象類`不能實例化`、有抽象方法
 - @override 預設選填，使用 LINT 則建議加 `@override`。
 
 **學習文章:**
