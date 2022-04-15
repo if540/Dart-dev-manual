@@ -36,7 +36,7 @@
 
 ### [Interface 實作](https://dart.dev/guides/language/language-tour#implicit-interfaces)
 
-所有介面 fields、方法都要實作。
+所有介面 fields、方法都要實作，除構造函式。
 
 複數實作
 
