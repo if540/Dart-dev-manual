@@ -10,7 +10,7 @@
 - extends、with 不能 @override fields
 - mixin 沒有 constructor
 - class 移除 constructor 可被 with
-- 抽象類才可以寫抽象方法
+- 抽象類不能實例化、有抽象方法
 - @override 預設選填，使用 LINT 則建議加 `@override`。
 
 
@@ -31,17 +31,14 @@ class B extends A {
 
 ### Abstract classes
 
-- 抽象類，不能實體化
+- 不能實例化
   ```dart
   abstract class Person {}
   Person peopleOne = Person(); // ERROR: Abstract classes can’t be instantiated.
   ```
-- 可以有抽象方法
+- 抽象方法
   ```dart
-  // CAN: none method body
-  void updateChildren();
-  // CAN: method body
-  void updateChildren() {};
+  void updateChildren(); // CAN: none method body
   ```
 
 ### Mixin(混合)
