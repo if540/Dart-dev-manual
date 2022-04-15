@@ -1,6 +1,6 @@
 # Classes 類
 
-## extends、with、implements
+## implements、extends、with
 
 ### abstract classes
 
