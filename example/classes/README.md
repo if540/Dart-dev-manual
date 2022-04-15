@@ -44,6 +44,15 @@
 class Point implements Comparable, Location {...}
 ```
 
-### Mixin
+### Mixin(混合)
 
-- 沒有構造函式(constructor), [with 聲明會報錯](https://dart.dev/tools/diagnostic-messages?utm_source=dartdev&utm_medium=redir&utm_id=diagcode&utm_content=mixin_class_declares_constructor#mixin_class_declares_constructor)
+- mixin 沒有構造函式(constructor), [with 聲明會報錯](https://dart.dev/tools/diagnostic-messages?utm_source=dartdev&utm_medium=redir&utm_id=diagcode&utm_content=mixin_class_declares_constructor#mixin_class_declares_constructor)
+  ```dart
+  mixin A {}
+  class B with A {}
+  ```
+- class 移除構造函式，一樣可以使用 with 來 mixin
+  ```dart
+  class A {}
+  class B with A {}
+  ```
