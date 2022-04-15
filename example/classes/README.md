@@ -4,9 +4,9 @@
 
 - 每一個類都是隱式介面
 - mixin, class, abstract class 都可以被實作
-- implements 必需實作介面所有fields、方法(除了constructor)
+- implements 所有 fields、方法(除了constructor) 都需 @override 覆寫實作
 - mixin 沒有 constructor
-- class 移除 constructor 就可以被 with
+- class 移除 constructor 可被 with
 - 抽象類才可以寫抽象方法
 
 ## implements、extends(擴展)、with
@@ -14,7 +14,7 @@
 
 ## @override
 
-@override 預設選填，LINT 會提示所有繼承來的方法都要寫 `@override`。
+@override 預設選填，LINT 會提示所有覆寫都要加 `@override`。
 
 下面情況禁止覆寫:
 
