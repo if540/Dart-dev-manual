@@ -43,9 +43,10 @@ class B extends A {
 
 ### Mixin(混合)
 
-- mixin [沒有構造函式 constructor](https://dart.dev/tools/diagnostic-messages?utm_source=dartdev&utm_medium=redir&utm_id=diagcode&utm_content=mixin_class_declares_constructor#mixin_class_declares_constructor)
-  ```dart
-  mixin A {}
-  class B {} // class 移除構造函式，可被 with 引用
-  class C with A, B {}
-  ```
+mixin [沒有構造函式 constructor](https://dart.dev/tools/diagnostic-messages?utm_source=dartdev&utm_medium=redir&utm_id=diagcode&utm_content=mixin_class_declares_constructor#mixin_class_declares_constructor)
+
+```dart
+mixin A {}
+class B {} // class 移除構造函式，可被 with 引用
+class C with A, B {}
+```
