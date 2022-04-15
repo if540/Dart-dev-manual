@@ -8,7 +8,7 @@
 - implements、with 可引用複數 `class Point implements Comparable, Location {...}`
 - extends 只能引用單數
 - extends、with 不能 @override fields
-- mixin 沒有 constructor、可寫抽象方法
+- mixin 沒有 constructor、可寫抽象方法、有先後順序(後面會覆蓋前面)
 - class 移除 constructor 可被 with  引用
 - 抽象類`不能實例化`、可寫抽象方法
 - @override 預設選填，使用 LINT 則建議加 `@override`。
