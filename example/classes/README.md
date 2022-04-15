@@ -3,16 +3,11 @@
 **重點整理:**
 
 - 每一個類都是介面
+- mixin, class, abstract class 都可以被實作
 - implements 必需實作介面所有fields、方法(除了constructor)
 - mixin 沒有 constructor
-- class 移除 constructor 就可以使用 with
+- class 移除 constructor 就可以被 with
 - 抽象類才可以寫抽象方法
-- 抽象類與介面(接口)的不同
-  - 介面是藍圖
-  - 抽象類已將藍圖實例化，可被繼承
-- 抽象跟非抽象差別
-  - 抽象可以寫抽象方法
-  - 非抽象不可以寫抽象方法
 
 ## implements、extends(擴展)、with
 
