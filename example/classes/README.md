@@ -5,6 +5,8 @@
 - 每一個類都是隱式介面
 - mixin, class, abstract class 都可以被實作
 - implements 所有 fields、方法(除了constructor) 都需 @override 覆寫實作
+- implements、with 可引用複數
+- extends 只能引用單數
 - extends、with 不能 @override fields
 - mixin 沒有 constructor
 - class 移除 constructor 可被 with
